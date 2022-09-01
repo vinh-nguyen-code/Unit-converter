@@ -15,7 +15,8 @@ let convertText3 = document.getElementById("convert-text-3")
 
 
 convertBtn.addEventListener("click",function(){
-  convertText1.innerHTML = 
+  if(inputEl.value !=""){
+    convertText1.innerHTML = 
     `
      ${inputEl.value} meters = ${(inputEl.value*3.2808).toFixed(3)} feet |  ${inputEl.value} feet = ${(inputEl.value/3.2808).toFixed(3)} meters
     `
@@ -27,6 +28,7 @@ convertBtn.addEventListener("click",function(){
   `
     ${inputEl.value} kilos = ${(inputEl.value*2.20462).toFixed(3)} pounds |  ${inputEl.value} pounds = ${(inputEl.value/2.20462).toFixed(3)} kilos
   `
+  }
 })
 
 resetBtn.addEventListener("click",function(){
