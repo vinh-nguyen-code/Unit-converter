@@ -13,11 +13,30 @@
         <div class ="up-section">
             <h1>Metric/Imperial Unit Conversion</h1>
             <div class = "input-section">
-                <input type="number" id="unit">
-                <button>Converter</button>
+                <input type="number" id="input-el">
             </div>
+            <div class = "button-container">
+                <div class = "input-section">
+                    <button id ="convert-btn">Convert</button>
+                    <div class ="separator"></div>
+                    <button id="reset-btn">Reset</button>
+                  </div>
+            </div>  
         </div>
-        <div class ="down-section"></div>    
+        <div class ="down-section">
+            <div class = "conversion">
+                <h3>Length (Meter/Feet)</h3>
+                <p id = "convert-text-1"></p>
+            </div>
+            <div class = "conversion">
+                <h3>Volume (Liters/Gallons)</h3>
+                <p id = "convert-text-2"></p>
+            </div>
+            <div class = "conversion">
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p id = "convert-text-3"></p>
+            </div>
+        </div>    
     </div>
 
     <script src="index.js"></script>
