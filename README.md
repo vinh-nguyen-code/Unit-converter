@@ -29,7 +29,7 @@ I have continued with these stretch goals:
 
 ### Links
 
-- Live Site: [DEMO](https://vinh-nguyen-code.github.io/Random-password-Scrimba/)
+- Live Site: [DEMO](vinh-nguyen-code.github.io/Unit-converter-Scrimba/)
 
 ## Process
 
@@ -42,8 +42,8 @@ I have continued with these stretch goals:
 
 ### What I learned
 
-- Generate random index
-- DOM, addEventListener
+- Round number according to chosen number of decimals - tofixed() method
+- Reload the content of the page on click -  window.location.reload();
 
 ## Author
 
