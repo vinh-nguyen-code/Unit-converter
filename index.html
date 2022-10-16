@@ -7,9 +7,12 @@
     <title>Unit Converter</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "section-container">
+    <main>
         <div class ="up-section">
             <h1>Metric/Imperial Unit Conversion</h1>
             <div class = "input-section">
@@ -20,7 +23,7 @@
                     <button id ="convert-btn">Convert</button>
                     <div class ="separator"></div>
                     <button id="reset-btn">Reset</button>
-                  </div>
+                    </div>
             </div>  
         </div>
         <div class ="down-section">
@@ -37,8 +40,13 @@
                 <p id = "convert-text-3"></p>
             </div>
         </div>    
-    </div>
-
+    </main>
     <script src="index.js"></script>
+    <footer class = "copyright" >
+        <p>
+            @ 2022
+            <a href="https://github.com/vinh-nguyen-code" target="_blank">Vinh NGUYEN</a>
+        </p>
+    </footer>
 </body>
 </html>

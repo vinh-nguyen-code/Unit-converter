@@ -1,8 +1,32 @@
+
 body {
-    margin: 50px;
     background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 5vh;
+}
+
+/*Footer*/
+.copyright{
+    font-size: 0.8em;
+    text-align: center;
+    color:white
+}
+
+.copyright a {
+    color:white
+}
+
+.copyright a:hover {
+    color:lightgreen
+}
 
 .up-section{
     background: #6943FF;
@@ -97,9 +121,9 @@ body {
 
 .conversion h3{
     color: #5A537B;
+    font-weight: 600;
 }
 
 .conversion p{
     color: #353535;
-    font-size: 14px;
 }

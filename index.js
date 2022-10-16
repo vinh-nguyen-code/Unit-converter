@@ -7,11 +7,10 @@
 const convertBtn = document.getElementById("convert-btn")
 const resetBtn = document.getElementById("reset-btn")
 
-let inputEl = document.getElementById("input-el")
-
-let convertText1 = document.getElementById("convert-text-1")
-let convertText2 = document.getElementById("convert-text-2")
-let convertText3 = document.getElementById("convert-text-3")
+const inputEl = document.getElementById("input-el")
+const convertText1 = document.getElementById("convert-text-1")
+const convertText2 = document.getElementById("convert-text-2")
+const convertText3 = document.getElementById("convert-text-3")
 
 
 convertBtn.addEventListener("click",function(){
